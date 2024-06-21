@@ -16,3 +16,23 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"      
+
+  - package-ecosystem: npm
+    directory: /examples/electron
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/desktopjs-electron
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/desktopjs-openfin
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/desktopjs
+    schedule:
+      interval: daily
